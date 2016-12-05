@@ -1,0 +1,84 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html ng-app="ObisoftWiki">
+<head>
+    <meta charset="utf-8">
+    <title>文档 - Obisoft</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="~/lib/animate.css/animate.css" />
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header class="site-header navbar">
+        <div class="container-fluid">
+            <div class="pull-left navbar-header">
+                <a asp-controller="Wiki" class="navbar-brand">
+                    <i class="fa fa-book"></i>
+                    Obisoft文档中心
+                </a>
+            </div>
+            <div class="pull-right">
+                <ul class="nav navbar-nav">
+                    <li class="hidden-xs">
+                        <a ng-href="/#/">返回Obisoft.com.cn</a>
+                    </li>
+                    <hr class="hidden-xs" />
+                    <li class="hidden-xs">
+                        <a ng-href="/#/Community">交流社区</a>
+                    </li>
+                    <hr class="hidden-xs" />
+                    <li class="hidden-xs active">
+                        <a ng-href="/Wiki">API 文档</a>
+                    </li>
+                    <hr class="hidden-xs" />
+                    <li>
+                        <a href="/#/Apps" target="_blank">
+                            <span class="icon icon-circle-cross"></span>
+                            创建应用程序
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <script src="~/lib/wow/dist/wow.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/marked/marked.min.js"></script>
+    <script src="~/lib/angular/angular.js"></script>
+    <script src="~/lib/angular-animate/angular-animate.js"></script>
+    <script src="~/lib/angular-mocks/angular-mocks.js"></script>
+    <script src="~/lib/angular-cookies/angular-cookies.js"></script>
+    <script src="~/lib/angular-resource/angular-resource.js"></script>
+    <script src="~/lib/angular-route/angular-route.js"></script>
+    <script src="~/lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="~/lib/angular-touch/angular-touch.js"></script>
+    <script>
+        angular.module("ObisoftWiki", [
+            'ngAnimate',
+            'ngCookies',
+            'ngResource',
+            'ngRoute',
+            'ngSanitize',
+            'ngTouch',
+        ])
+        .controller('navController', function ($scope, $http) {
+            $scope.goto = function (url) {
+                var date = new Date();
+                $http.get('/views/' + url + '.md' + '?time=' + date.getMilliseconds()).success(function (data) {
+                    new WOW().init();
+                    $('#content').html(marked(data));
+                }).error(function () {
+                    $http.get('/views/404.md').success(function (data) {
+                        new WOW().init();
+                        $('#content').html(marked(data));
+                    });
+                });
+            }
+        })
+    </script>
+</body>
+</html>

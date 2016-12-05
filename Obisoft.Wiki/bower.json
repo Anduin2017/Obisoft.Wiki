@@ -1,0 +1,30 @@
+{
+  "name": "Obisoft.Wiki",
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.0",
+    "jquery-validation": "1.14.0",
+    "jquery-validation-unobtrusive": "3.2.6",
+    "angular-animate": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-loading-bar": "^0.9.0",
+    "animate.css": "3.5.1",
+    "angular-mocks": "^1.5.8",
+    "marked": "0.3.5"
+  },
+  "homepage": "https://github.com/MMA2017/Obisoft-Wiki",
+  "authors": [
+    "MMA 2017 <mma@obisoft.com.cn>"
+  ],
+  "description": "The wiki part of Obisoft",
+  "main": "program.cs",
+  "keywords": [
+    "Wiki",
+    "Obisoft"
+  ],
+  "license": "MIT"
+}

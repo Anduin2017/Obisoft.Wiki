@@ -1,0 +1,34 @@
+﻿<secction class="site-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 site-sidebar">
+                <div class="hidden-print" ng-controller="navController">
+                    <ul class="nav site-sidenav" ng-init="Navtab=0;goto('before');">
+                        <li ng-class="{active:Navtab===0}"><a ng-click="Navtab=0;goto('before');" ng-href="#">开始前必读<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===9}"><a ng-click="Navtab=9;goto('error');" ng-href="#">错误表<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===11}"><a ng-click="Navtab=11;goto('update');" ng-href="#">更新日志<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===1}"><a ng-click="Navtab=1;goto('start');" ng-href="#">开始开发<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===3}"><a ng-click="Navtab=3;goto('basic');" ng-href="#">基本功能接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===2}"><a ng-click="Navtab=2;goto('user');" ng-href="#">用户账户接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===4}"><a ng-click="Navtab=4;goto('community');" ng-href="#">社区接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===5}"><a ng-click="Navtab=5;goto('group');" ng-href="#">团队管理接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===6}"><a ng-click="Navtab=6;goto('project');" ng-href="#">项目管理接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===7}"><a ng-click="Navtab=7;goto('pr');" ng-href="#">用户关系管理接口<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===8}"><a ng-click="Navtab=8;goto('websocket');" ng-href="#">推送服务<span class="icon icon-caret"></span></a></li>
+                        <li ng-class="{active:Navtab===10}"><a ng-click="Navtab=10;goto('message');" ng-href="#">通知管理<span class="icon icon-caret"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 main-content doc">
+                <article class="document wow fadeInUp">
+                    <div id="content"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <p>Copyright © 2015-@DateTime.Now.Year Obisoft</p>
+        </div>
+    </footer>
+</secction>
