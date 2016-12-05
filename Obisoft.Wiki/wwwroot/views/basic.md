@@ -14,7 +14,7 @@
 
 #### 地址
 
->[/api/ChangeLanguage](/api/ChangeLanguage)
+>[/api/ChangeLanguage](https://www.obisoft.com.cn/api/ChangeLanguage)
 
 #### 方法
 

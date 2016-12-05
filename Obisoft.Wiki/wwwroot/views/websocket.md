@@ -24,7 +24,7 @@
 
 #### 调试地址
 
->[/ws/ClientEvent](/ws/ClientEvent)
+>[/ws/ClientEvent](https://www.obisoft.com.cn/ws/ClientEvent)
 
 调试时，直接用浏览器打开调试地址即可。
 
@@ -99,7 +99,7 @@
 
 #### 调试地址
 
->[/ws/ServerEvent?ref=ref](/ws/ServerEvent?ref=ApiIndex)
+>[/ws/ServerEvent?ref=ref](https://www.obisoft.com.cn/ws/ServerEvent?ref=ApiIndex)
 
 #### 代码示例 Javascript
 
@@ -136,7 +136,7 @@ ApiIndex
 
 #### 触发器
 
->[/api](/api)
+>[/api](https://www.obisoft.com.cn/api)
 
 每次收到访问，本API就会返回上次返回的时间。不会涉及历史访问。
 

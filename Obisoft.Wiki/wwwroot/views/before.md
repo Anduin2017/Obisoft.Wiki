@@ -22,7 +22,7 @@ Obisoft为了识别用户，每个用户针对服务器都会产生唯一ID。
 
 ### 开始开发前
 
-开发者必须拥有Obisoft账号。[登录](/Manage)
+开发者必须拥有Obisoft账号。[登录](https://www.obisoft.com.cn/Manage)
 
 必须创建你的应用程序。创建按钮在本页面右上角。
 

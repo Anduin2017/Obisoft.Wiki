@@ -18,7 +18,7 @@ GET
 
 #### 地址
 
->[/api/AllMyMessages](/api/AllMyMessages)
+>[/api/AllMyMessages](https://www.obisoft.com.cn/api/AllMyMessages)
 
 #### 需要权限
 
@@ -152,7 +152,7 @@ GET
 
 #### 地址
 
->[/api/SetSystemMessageRead](/api/SetSystemMessageRead)
+>[/api/SetSystemMessageRead](https://www.obisoft.com.cn/api/SetSystemMessageRead)
 
 #### 方法
 

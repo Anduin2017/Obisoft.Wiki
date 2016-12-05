@@ -9,7 +9,7 @@
 本API可以把当前用户状态由匿名切换到已登录状态或待二重验证状态。必须搭载Token进行调用
 
 #### 地址  
->[/api/Login](/api/Login)
+>[/api/Login](https://www.obisoft.com.cn/api/Login)
 
 #### 方法  
 
@@ -96,7 +96,7 @@
 本API生成一个可用的Obisoft用户
 
 #### 地址  
->[/api/Register](/api/Register)
+>[/api/Register](https://www.obisoft.com.cn/api/Register)
 
 #### 方法  
 
@@ -180,7 +180,7 @@
 
 本API将会向用户注册的邮箱发送认证邮件。用户单击邮箱中的链接即可重置密码，不需要客户端二次干涉
 
->[/api/ForgotPassword](/api/ForgotPassword)
+>[/api/ForgotPassword](https://www.obisoft.com.cn/api/ForgotPassword)
 
 #### 方法
 
@@ -247,7 +247,7 @@
 
 #### 地址
 
->[/api/VerifyEmail](/api/VerifyEmail)
+>[/api/VerifyEmail](https://www.obisoft.com.cn/api/VerifyEmail)
 
 #### 方法
 
@@ -301,7 +301,7 @@
 
 #### 地址
 
->[/api/UserInfo](/api/UserInfo)
+>[/api/UserInfo](https://www.obisoft.com.cn/api/UserInfo)
 
 #### 方法
 
@@ -353,7 +353,7 @@ GET
 
 #### 地址
  
->[/api/Another](/api/Another)
+>[/api/Another](https://www.obisoft.com.cn/api/Another)
 
 #### 参数列表
 
@@ -400,7 +400,7 @@ GET
 
 #### 地址
 
->[/api/EmailToId](/api/EmailToId)
+>[/api/EmailToId](https://www.obisoft.com.cn/api/EmailToId)
 
 #### 参数列表
 
@@ -459,7 +459,7 @@ GET
 
 #### 地址
 
->[/api/ChangePass](/api/ChangePass)
+>[/api/ChangePass](https://www.obisoft.com.cn/api/ChangePass)
 
 #### 方法
 
@@ -537,7 +537,7 @@ POST
 
 #### 地址
 
->[/api/SignInStatus](/api/SignInStatus)
+>[/api/SignInStatus](https://www.obisoft.com.cn/api/SignInStatus)
 
 #### 方法
 
@@ -584,7 +584,7 @@ GET
 
 #### 地址
 
->[/api/LogOff](/api/LogOff)
+>[/api/LogOff](https://www.obisoft.com.cn/api/LogOff)
 
 #### 方法
 

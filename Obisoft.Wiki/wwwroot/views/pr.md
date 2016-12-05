@@ -12,7 +12,7 @@
 
 #### 地址
 
->[/api/MyFriends](/api/MyFriends)
+>[/api/MyFriends](https://www.obisoft.com.cn/api/MyFriends)
 
 #### 方法
 
@@ -83,7 +83,7 @@ GET
 
 #### 地址
 
->[/api/CreateFriendRequest](/api/CreateFriendRequest)
+>[/api/CreateFriendRequest](https://www.obisoft.com.cn/api/CreateFriendRequest)
 
 #### 方法
 
@@ -158,7 +158,7 @@ POST
 
 #### 地址
 
->[/api/OperateFriendRequest](/api/OperateFriendRequest)
+>[/api/OperateFriendRequest](https://www.obisoft.com.cn/api/OperateFriendRequest)
 
 #### 方法
 
@@ -229,7 +229,7 @@ POST
 
 #### 地址 
 
->[/api/RemoveFriend](/api/RemoveFriend)
+>[/api/RemoveFriend](https://www.obisoft.com.cn/api/RemoveFriend)
 
 #### 方法
 

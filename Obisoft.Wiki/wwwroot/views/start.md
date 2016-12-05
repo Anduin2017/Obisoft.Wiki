@@ -14,7 +14,7 @@
 本API用于让开发者学习调用Obisoft API。
 
 地址：
->[/api](/api/)   
+>[/api](https://www.obisoft.com.cn/api/)   
 
 方法：GET  
 
@@ -36,7 +36,7 @@
 
 #### 地址：  
 
->[/api/token](/api/Token?AppId=22222&AppSecret=3333)  
+>[/api/token](https://www.obisoft.com.cn/api/Token?AppId=22222&AppSecret=3333)  
 
 #### 方法：
 
@@ -127,7 +127,7 @@ Productive级和Staging级App不应当调用本API
 
 #### 地址：
 
->[/api/validatetoken](/api/validatetoken)   
+>[/api/validatetoken](https://www.obisoft.com.cn/api/validatetoken)   
 
 #### 方法：GET  
 
