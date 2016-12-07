@@ -618,3 +618,73 @@ POST
 	  </tr>
 	</tbody>
 </table>
+
+### 修改用户基本信息
+
+#### 说明
+
+本API可以将当已登录的用户的基本信息进行直接修改。如果一个值没有传入，则不会对该值进行任何操作。
+
+#### 需要权限
+
+已经登录
+
+#### 地址
+
+>[/api/SetProfile](https://www.obisoft.com.cn/api/SetProfile)
+
+#### 方法
+
+POST
+
+#### 参数列表
+
+<table class="table table-bordered table-striped">
+  <tbody>
+	  <tr>
+		<th>参数名</th>
+		<th>必选</th>
+		<th>参数类型</th>
+		<th>参数说明</th>
+	  </tr>
+	  <tr>
+		<td>nick</td>
+		<td>false</td>
+		<td>string</td>
+		<td>新的用户昵称</td>
+	  </tr>
+	  <tr>
+		<td>phone</td>
+		<td>false</td>
+		<td>string</td>
+		<td>新的用户电话号码</td>
+	  </tr>
+	  <tr>
+		<td>IconAddress</td>
+		<td>false</td>
+		<td>string</td>
+		<td>新的用户头像地址（通过OSS服务获取）</td>
+	  </tr>
+	</tbody>
+</table>
+
+#### 返回值
+
+	{
+	  "Result": "Successfully updated your profile",
+	  "Code": 0
+	}
+
+#### 可能的返回值：
+<table class="table table-bordered table-striped">
+  <tbody>
+	  <tr>
+		<th>错误号</th>
+		<th>含义</th>
+	  </tr>
+	  <tr>
+		<td>0</td>
+		<td>已经成功更新你的属性</td>
+	  </tr>
+	</tbody>
+</table>
