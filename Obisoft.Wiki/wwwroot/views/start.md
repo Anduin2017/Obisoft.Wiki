@@ -114,7 +114,11 @@ GET
 	  </tr>
 	  <tr>
 		<td>-4</td>
-		<td>没有找到目标应用。应用的AppId或AppSecret错误</td>
+		<td>没有找到目标应用。应用的AppId错误</td>
+	  </tr>
+	  <tr>
+		<td>-1</td>
+		<td>已经发现目标App，但AppSecret错误</td>
 	  </tr>
 	</tbody>
 </table>

@@ -1,5 +1,5 @@
 {
-  "name": "Obisoft.Wiki",
+  "name": "obisoftwiki",
   "dependencies": {
     "bootstrap": "3.3.6",
     "jquery": "2.2.0",
@@ -14,7 +14,9 @@
     "angular-loading-bar": "^0.9.0",
     "animate.css": "3.5.1",
     "angular-mocks": "^1.5.8",
-    "marked": "0.3.5"
+    "marked": "0.3.5",
+    "font-awesome": "^4.7.0",
+    "wow": "^1.1.2"
   },
   "homepage": "https://github.com/MMA2017/Obisoft-Wiki",
   "authors": [
